@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+}
+li{
+    display: inline;
+    margin: 8px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    text-decoration: underline;
+}
+.header{
+    margin-top: 1rem;
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+input[type=text] {
+   width: 500px;
+    padding: 17px;
+    border-radius: 50px;
+   outline: none;
+   color: black;
+   border: 1px solid #4A4A4A;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  }
+  input[type=text]:focus{
+      box-shadow: 0px 0px 10px rgb(167, 131, 131);
+  }
+  .buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+  }
+  button{
+      margin:11px  4px;
+      padding: 16px;
+      background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      font-family: arial,sans-serif;
+    font-size: 14px;
+
+  }
+  button:hover{
+      border: 3px solid #f8f9fa;
+  }
+  .infos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      margin: 3px;
+  }
+  .info-link{
+      text-decoration: none;
+  }
+  .info-link:hover{
+      text-decoration: underline;
+  }
+  .galego{
+      text-decoration: none;
+  }
+  .galego:hover{
+      text-decoration: underline;
+  }
+  span{
+      margin:9px ;
+  }
+.footer{
+    margin-top: 10rem;
+    background: #f2f2f2;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 120px;
+}
+.brasil{
+    border-bottom: 1px solid #dadce0;
+    padding: 16px;
+    font-size: 15px;
+    color: #70757a;
+
+}
+
+.links-left{
+    margin-top: 1rem;
+}
+.links-righ{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.global-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-rodape{
+    text-decoration: none;
+    color: #70757a;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+}
+.menu-rodape:hover{
+    text-decoration: underline;
+}
